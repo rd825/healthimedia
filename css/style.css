@@ -352,7 +352,7 @@ html, body {
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   transition: background 0.2s;
-  color: #81c483;
+  color: #3ae;
 }
 .no-touch .cd-primary-nav a:hover {
   font-weight: 400;
@@ -424,7 +424,7 @@ html, body {
 	  -webkit-transition: background 0.2s;
 	  -moz-transition: background 0.2s;
 	  transition: background 0.2s;
-	  color: #81c483;
+	  color: #3ae;
 	}
 }
 
@@ -436,7 +436,7 @@ The .cd-intro change the background image
 .cd-intro {
   position: relative;
   height: 100%;
-  background: url(../img/nyc.jpg) center center;
+  background: url(../img/swim.jpg) center center;
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
@@ -529,8 +529,8 @@ The .cd-intro change the background image
 	color: rgba(2, 23, 37, 0.7);
 }
 .read-more-btn:hover {
-	border: #81c483 solid 1px;
-	color: #81c483; 
+	border: #3ae solid 1px;
+	color: #3ae; 
 }
 .cd-container-more-about {
 	width: 100%;
@@ -671,7 +671,7 @@ Work Thumbnails
 	padding: 1em;
 }
 .cd-container-people h4 {
-	color: #81c483;
+	color: #3ae;
 }
 .cd-container-people p {
 	font-size: 0.9rem;
@@ -719,8 +719,8 @@ Work Thumbnails
 	color: rgba(2, 23, 37, 0.7);
 }
 .read-more-btn-small:hover {
-	border: #81c483 solid 1px;
-	color: #81c483; 
+	border: #3ae solid 1px;
+	color: #3ae; 
 }
 
 .cd-container-blog-read-posts {
@@ -737,8 +737,8 @@ Work Thumbnails
 	color: rgba(2, 23, 37, 0.7);
 }
 .read-more-posts-btn:hover {
-	border: #81c483 solid 1px;
-	color: #81c483; 
+	border: #3ae solid 1px;
+	color: #3ae; 
 }
 .cd-container-contact-clmn-2 {
 	background-color: #f9f9f9;
@@ -1321,8 +1321,8 @@ Blog Post Style
 	text-align: center;
 }
 .read-more-btn-normal:hover {
-	border: #81c483 solid 1px;
-	color: #81c483; 
+	border: #3ae solid 1px;
+	color: #3ae; 
 }
 .cd-container-blog-post-clmn-1 {
 	width: 65%;
@@ -1354,7 +1354,7 @@ Blog Post Style
 .cd-container-blog-post-clmn-1 h4 {
   font-size: .9em;
   text-align: left;
-  color: #81c483;
+  color: #3ae;
 }
 .cd-container-blog-post-clmn-1 p {
   font-family: 'Cardo', serif;
@@ -1365,7 +1365,7 @@ Blog Post Style
 }
 .cd-container-blog-post-clmn-2 h2 {
   font-size: 1.5rem;
-  border-bottom: #81c483 solid 2px; 
+  border-bottom: #3ae solid 2px; 
   padding-bottom: 1rem;
 }
 .cd-container-blog-post-clmn-2 h3 {
@@ -1375,7 +1375,7 @@ Blog Post Style
   color: rgba(2, 23, 37, 0.7);
 }
 .cd-container-blog-post-clmn-2 a:hover {
-  color: #81c483;
+  color: #3ae;
 }
 .load-more-posts-btn {
 	margin: 0 auto;
@@ -1387,8 +1387,8 @@ Blog Post Style
 	color: rgba(2, 23, 37, 0.7);
 }
 .load-more-posts-btn:hover {
-	border: #81c483 solid 1px;
-	color: #81c483; 
+	border: #3ae solid 1px;
+	color: #3ae; 
 }
 
 @media all and (min-width: 320px) and (max-width: 780px) {
@@ -1494,7 +1494,7 @@ Contact Page Style
 .square-1 {
 	width: 39.4%;
 	height: 300px;
-	background-color: #81c483;
+	background-color: #3ae;
 	display: inline-block;
 }
 .square-1 h2 {
@@ -1601,7 +1601,7 @@ Contact Page Style
   width: 32px;
   cursor: pointer;
   margin-left: 10px;
-  background-color: #81c483;
+  background-color: #3ae;
   background-repeat: no-repeat;
   background-size: 32px 64px;
   background-image: url("http://static.tumblr.com/1ccbc9v/gBOncd6ht/cd-icon-controller.svg");
@@ -1657,7 +1657,7 @@ Footer Style
   float: left;
 }
 .footer-clmn1 a:hover {
-  color: #81c483;
+  color: #3ae;
 }
 .footer-clmn2 {
   width: 50%;
@@ -1665,7 +1665,7 @@ Footer Style
   text-align: right;
 }
 .footer-clmn2 a:hover {
-  color: #81c483;
+  color: #3ae;
 }
 
 @media all and (min-width: 320px) and (max-width: 780px) {
@@ -1793,14 +1793,15 @@ Social Share Style
 	}	
 }
 
-#myNav{position:fixed; left:0; top:0; background-color:#eee; width:100%; height:70px; z-index:500;}
+#myNav{position:fixed; left:0; top:0; background-color:#055683; width:100%; height:70px; z-index:500;}
 #myNav ul{list-style:none; margin-right:100px; margin-top:-25px;}
-#myNav ul li {color:#81c483; float:right; padding-right:5%; }
+#myNav ul li {color:#3ae; float:right; padding-right:5%; }
 
 .logo{ }
 img.logo{margin-top:20px;  padding-left:10%; }
 
 
 @media only screen and (max-width: 680px) {
-  #myNav {visibility: !important hidden; display: none;}
+  #myNav ul li{visibility: !important hidden; display: none;}
+  img.logo{width: 40%; height: auto;}
 }
