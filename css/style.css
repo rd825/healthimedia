@@ -436,7 +436,7 @@ The .cd-intro change the background image
 .cd-intro {
   position: relative;
   height: 100%;
-  background: url(../img/swim.jpg) center center;
+  background: url(../img/bikes.jpg) center center;
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
@@ -1793,7 +1793,7 @@ Social Share Style
 	}	
 }
 
-#myNav{position:fixed; left:0; top:0; background-color:#055683; width:100%; height:70px; z-index:500;}
+#myNav{position:fixed; left:0; top:0; background-color: #f3f3f3; width:100%; height:70px; z-index:500;}
 #myNav ul{list-style:none; margin-right:100px; margin-top:-25px;}
 #myNav ul li {color:#3ae; float:right; padding-right:5%; }
 
