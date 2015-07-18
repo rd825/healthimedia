@@ -40,7 +40,7 @@ body {
 
 a {
   outline: none;
-  color: #3ae;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ button:focus {
 /* Sidebar */
 .sidebar {
   text-align: center;
-  background: #f3f5f7;
+  background: #3ae;
   z-index: 1000;
   position: fixed;
   width: 130px;
@@ -74,10 +74,15 @@ button:focus {
   font-size: 2em;
   line-height: 1;
   font-family: "Raleway", sans-serif;
+  color: white;
 }
 
 .sidebar h1 span {
   display: block;
+}
+
+.sidebar h3 {
+  color: white !important;
 }
 
 /* Codrops links */
@@ -135,7 +140,7 @@ button:focus {
 /* Demo links */
 .codrops-demos {
   margin: 2em 0 0;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 
 .codrops-demos a {
@@ -318,7 +323,7 @@ button:focus {
   font-size: 1.75em;
   font-family: "Raleway", sans-serif;
   text-align: center;
-  color: #055683;
+  color: #47d;
 }
 
 .title--preview {
@@ -372,6 +377,7 @@ button:focus {
   font-family: "Playfair Display", serif;
   text-align: center;
   display: block;
+  color: #3ae;
 }
 
 .title--preview,
@@ -869,7 +875,7 @@ button:focus {
 
   .grid__item:hover::before,
   .grid__item:focus::before {
-    border: 3px solid #3ae;
+    border: 3px solid #47d;
   }
 
   .grid__item--loading.grid__item::before {
@@ -966,7 +972,7 @@ ul.social-buttons { list-style: none; margin: 0; padding-left: 0px }
 ul.social-buttons li { display: block; margin-right: 10px; margin-top: 5px; text-align: center }
 ul.social-buttons li:last-child { margin-right: 0; }
 .social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #333; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
-.social-btn:hover, .social-btn:focus { background: #3ae; color: #fff; }
+.social-btn:hover, .social-btn:focus { background: #47d; color: #fff; }
 .social { margin-top: 25px }
 
 /*# sourceMappingURL=style1.css.map */
